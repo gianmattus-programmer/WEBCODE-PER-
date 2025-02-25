@@ -1,6 +1,6 @@
 # 🚀 WebCode Perú
 
-![WebCode Perú Logo](img/logotipo1.webp)
+![WebCode Perú Logo](img/logo1.png)
 
 ## 📋 Descripción
 WebCode Perú es una agencia especializada en desarrollo web profesional, ofreciendo soluciones digitales a medida para empresas y emprendedores. Nuestro enfoque está en crear experiencias web de alta calidad, con diseño responsive, optimización SEO y rendimiento excepcional.
