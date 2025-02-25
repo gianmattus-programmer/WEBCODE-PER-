@@ -1,0 +1,285 @@
+<!DOCTYPE html>
+<html lang="es">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <meta name="description" content="WebCode Perú - Agencia de desarrollo web especializada en diseño, desarrollo y posicionamiento de sitios web profesionales y aplicaciones a medida.">
+    <meta name="keywords" content="desarrollo web, diseño web, páginas web, aplicaciones web, Perú, WebCode, desarrollo front-end, desarrollo back-end, ecommerce, SEO">
+    <meta name="author" content="WebCode Perú">
+    
+    <!-- Open Graph / Meta para redes sociales -->
+    <meta property="og:title" content="WebCode Perú | Soluciones digitales a medida">
+    <meta property="og:description" content="Desarrollamos sitios web profesionales y aplicaciones a medida para impulsar tu negocio en el mundo digital.">
+    <meta property="og:image" content="img/webcode-social-share.jpg">
+    <meta property="og:url" content="https://webcodepe.com">
+    <meta property="og:type" content="website">
+    
+    <!-- Fuentes optimizadas -->
+    <link href="https://fonts.googleapis.com/css2?family=Fira+Sans:wght@400;500;700;800&family=Poppins:wght@400;600;700&display=swap" rel="stylesheet">
+    
+    <link rel="stylesheet" href="style.css">
+    
+    <!-- Favicon -->
+    <link rel="icon" href="img/favicon.ico" type="image/x-icon">
+
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500;600;700&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
+</head>
+
+<body>
+    <nav id="navbar">
+        <div class="nav-container container">
+            <a href="#" class="logo">
+                <img src="img/logo.png" alt="Logo WebCode" width="180" height="48">
+            </a>
+            <button class="mobile-menu-toggle" aria-label="Abrir menú" aria-expanded="false" aria-controls="nav-menu">
+                <span class="bar"></span>
+                <span class="bar"></span>
+                <span class="bar"></span>
+            </button>
+            <ul id="nav-menu">
+                <li><a href="#Home" class="nav-link active">Inicio</a></li>
+                <li><a href="#About" class="nav-link">Nosotros</a></li>
+                <li><a href="#Services" class="nav-link">Servicios</a></li>
+                <li><a href="#Contact" class="nav-link">Contacto</a></li>
+            </ul>
+        </div>
+    </nav>
+
+    <section id="Home">
+        <div class="carousel">
+            <div class="slide active">
+                <img src="img/carousel-1.jpg" alt="Desarrollo web profesional" loading="eager" width="1200" height="600">
+                <div class="slide-caption">
+                    <h2>Desarrollo Web Profesional</h2>
+                    <p>Creamos soluciones digitales a medida para tu negocio</p>
+                    <a href="#Services" class="btn btn-primary">Conoce más</a>
+                </div>
+            </div>
+            <div class="slide">
+                <img src="img/carousel-2.jpg" alt="Diseño responsive" loading="lazy" width="1200" height="600">
+                <div class="slide-caption">
+                    <h2>Diseño Responsive</h2>
+                    <p>Tu web adaptada a todos los dispositivos</p>
+                    <a href="#Services" class="btn btn-primary">Nuestros planes</a>
+                </div>
+            </div>
+            <div class="slide">
+                <img src="img/carousel-3.jpg" alt="Optimización SEO" loading="lazy" width="1200" height="600">
+                <div class="slide-caption">
+                    <h2>Optimización SEO</h2>
+                    <p>Mejora tu visibilidad en los motores de búsqueda</p>
+                    <a href="#Contact" class="btn btn-primary">Contáctanos</a>
+                </div>
+            </div>
+            <button class="prev-button carousel-control" aria-label="Anterior slide">
+                <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" width="24" height="24">
+                    <path d="M15.41 7.41L14 6l-6 6 6 6 1.41-1.41L10.83 12z" fill="currentColor"></path>
+                </svg>
+            </button>
+            <button class="next-button carousel-control" aria-label="Siguiente slide">
+                <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" width="24" height="24">
+                    <path d="M10 6L8.59 7.41 13.17 12l-4.58 4.59L10 18l6-6z" fill="currentColor"></path>
+                </svg>
+            </button>
+        </div>
+    </section>
+
+    <section id="About">
+        <div class="container">
+            <h2>Sobre Nosotros</h2>
+            <p class="section-description">
+                En WebCode nos especializamos en crear soluciones web personalizadas
+                que impulsan el crecimiento de tu negocio.
+            </p>
+
+            <div class="about-features">
+                <div class="feature reveal">
+                    <div class="feature-icon">🚀</div>
+                    <h3>Rapidez</h3>
+                    <p>
+                        Trabajamos con las últimas tecnologías para garantizar que tu sitio
+                        web cargue rápidamente.
+                    </p>
+                </div>
+
+                <div class="feature reveal">
+                    <div class="feature-icon">📱</div>
+                    <h3>Diseño Responsive</h3>
+                    <p>
+                        Tu sitio web se verá perfecto en cualquier dispositivo, desde
+                        móviles hasta computadoras de escritorio.
+                    </p>
+                </div>
+
+                <div class="feature reveal">
+                    <div class="feature-icon">🔍</div>
+                    <h3>SEO Optimizado</h3>
+                    <p>
+                        Implementamos las mejores prácticas de SEO para mejorar tu
+                        posicionamiento en buscadores.
+                    </p>
+                </div>
+
+                <div class="feature reveal">
+                    <div class="feature-icon">🛡️</div>
+                    <h3>Seguridad</h3>
+                    <p>
+                        Aseguramos que tu sitio web esté protegido contra las últimas
+                        amenazas de seguridad.
+                    </p>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <section id="Services">
+        <div class="container">
+            <h2>Nuestros Servicios</h2>
+            <p class="section-description">
+                Ofrecemos soluciones adaptadas a tus necesidades con los mejores
+                precios del mercado.
+            </p>
+
+            <div class="services-plans">
+                <div class="plan reveal">
+                    <div class="ribbon">Básico</div>
+                    <h3>Plan Básico</h3>
+                    <p class="price">S/. 499</p>
+                    <ul>
+                        <li>Sitio web de 5 páginas</li>
+                        <li>Diseño responsive</li>
+                        <li>Formulario de contacto</li>
+                        <li>Integración con redes sociales</li>
+                    </ul>
+                    <button class="btn-plan">Seleccionar</button>
+                </div>
+
+                <div class="plan reveal">
+                    <div class="ribbon">Popular</div>
+                    <h3>Plan Profesional</h3>
+                    <p class="price">S/. 999</p>
+                    <ul>
+                        <li>Sitio web de 10 páginas</li>
+                        <li>Diseño responsive premium</li>
+                        <li>Blog integrado</li>
+                        <li>SEO básico</li>
+                        <li>Soporte por 6 meses</li>
+                    </ul>
+                    <button class="btn-plan">Seleccionar</button>
+                </div>
+
+                <div class="plan reveal">
+                    <h3>Plan Empresarial</h3>
+                    <p class="price">S/. 1,499</p>
+                    <ul>
+                        <li>Sitio web ilimitado</li>
+                        <li>E-commerce integrado</li>
+                        <li>SEO avanzado</li>
+                        <li>Mantenimiento mensual</li>
+                        <li>Soporte 24/7</li>
+                    </ul>
+                    <button class="btn-plan">Seleccionar</button>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <section id="Contact">
+        <div class="container">
+            <h2>Contáctanos</h2>
+            <p class="section-description">
+                ¿Tienes alguna pregunta? Completa el formulario y te responderemos a la
+                brevedad.
+            </p>
+
+            <div class="contact-container">
+                <form id="contact-form">
+                    <div class="form-group">
+                        <label for="name" class="required">Nombre</label>
+                        <input type="text" id="name" placeholder="Tu nombre completo" required>
+                        <div class="error-message">Por favor ingresa tu nombre</div>
+                    </div>
+                    
+                    <div class="form-group">
+                        <label for="email" class="required">Email</label>
+                        <input type="email" id="email" placeholder="tucorreo@ejemplo.com" required>
+                        <div class="error-message">Por favor ingresa un email válido</div>
+                    </div>
+                    
+                    <div class="form-group">
+                        <label for="subject" class="required">Asunto</label>
+                        <input type="text" id="subject" placeholder="Motivo de tu consulta" required>
+                        <div class="error-message">Por favor ingresa el asunto</div>
+                    </div>
+                    
+                    <div class="form-group">
+                        <label for="message" class="required">Mensaje</label>
+                        <textarea id="message" rows="5" placeholder="Escribe tu mensaje aquí..." required></textarea>
+                        <div class="error-message">Por favor ingresa tu mensaje</div>
+                    </div>
+
+                    <button type="submit" class="btn btn-primary">Enviar Mensaje</button>
+                    <div id="form-messages" class="form-notification"></div>
+                </form>
+
+                <div class="contact-info reveal">
+                    <div class="info-item">
+                        <h3>Dirección</h3>
+                        <p>Av. Javier Prado, San Isidro, Lima</p>
+                    </div>
+                    <div class="info-item">
+                        <h3>Email</h3>
+                        <p>info@webcode.pe</p>
+                    </div>
+                    <div class="info-item">
+                        <h3>Teléfono</h3>
+                        <p>+51 986673748</p>
+                    </div>
+                    <div class="social-media">
+                        <a href="https://facebook.com" target="_blank" aria-label="Facebook"><i class="fab fa-facebook-f"></i></a>
+                        <a href="https://twitter.com" target="_blank" aria-label="Twitter"><i class="fab fa-twitter"></i></a>
+                        <a href="https://instagram.com" target="_blank" aria-label="Instagram"><i class="fab fa-instagram"></i></a>
+                        <a href="https://linkedin.com" target="_blank" aria-label="LinkedIn"><i class="fab fa-linkedin-in"></i></a>
+                        <a href="https://github.com/Gianmattus-Programmer" target="_blank" aria-label="GitHub"><i class="fab fa-github"></i></a>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <footer>
+        <div class="container">
+            <p>&copy; 2025 WebCode Perú. Todos los derechos reservados.</p>
+            <div class="developer-credit">
+                <a href="https://github.com/Gianmattus-Programmer" target="_blank" rel="noopener noreferrer">
+                    <i class="fas fa-code"></i> Developed and Designed by Gianmattus-Programmer
+                </a>
+            </div>
+            <div class="footer-links">
+                <a href="#"><i class="fas fa-file-contract"></i> Términos y Condiciones</a>
+                <a href="#"><i class="fas fa-shield-alt"></i> Política de Privacidad</a>
+            </div>
+        </div>
+    </footer>
+
+    <div class="menu-overlay"></div>
+
+    <!-- Botón Volver Arriba -->
+    <a href="#" class="back-to-top" aria-label="Volver arriba">
+        <i class="fas fa-chevron-up"></i>
+    </a>
+
+    <!-- Botón WhatsApp Flotante -->
+    <a href="https://wa.me/51986673748?text=Hola,%20estoy%20interesado%20en%20sus%20servicios%20web" target="_blank" class="whatsapp-float" aria-label="Contactar por WhatsApp">
+        <i class="fab fa-whatsapp"></i>
+    </a>
+
+    <script src="script.js"></script>
+</body>
+
+</html>
